@@ -1,6 +1,10 @@
 
 /**
  * Created by Thomas Hodges on 6/28/15.
+ * CMIS 141 - Homework 4a
+ * This class exists so that the state can be represented
+ * as an object as opposed to a multi-dimensional array.
+ * The case switch assigns variable data to the State object.
  */
 public class State {
 

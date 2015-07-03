@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 /**
  * Created by Thomas Hodges on 6/28/15.
+ * CMIS 141 - Homework 4a
+ * This program allows the user to enter a state, then it will
+ * display that state's bird and flower.
  */
 public class StateProgram {
 
@@ -28,7 +31,11 @@ public class StateProgram {
     }
 
     public static void main(String[] args) {
-        // Calls runState
-        runState();
+        // Calls runState - Uncomment for production
+        //runState();
+
+        // Calls Tests - Comment out for production
+        Test.tests();
+
     }
 }
